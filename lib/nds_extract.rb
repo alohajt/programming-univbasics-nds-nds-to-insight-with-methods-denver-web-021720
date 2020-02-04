@@ -24,7 +24,7 @@ end
 def directors_totals(nds)
   # pp nds
   result = {}
-  total = gross_for_director(director_data)
+  total = gross_for_director()
   puts total
   # i = 0
   # while i < nds.length do 
