@@ -5,7 +5,7 @@ require 'pp'
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
 def gross_for_director(director_data)
-  vm = a
+  vm = director_data
   i = 0
   total = 0
   while i < vm[:movies].length do 
@@ -14,7 +14,7 @@ def gross_for_director(director_data)
   end
   return total
 end
-end
+
 
 # Write a method that, given an NDS creates a new Hash
 # The return value should be like:
