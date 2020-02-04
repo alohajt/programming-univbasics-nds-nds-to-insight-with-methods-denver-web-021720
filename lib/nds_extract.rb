@@ -32,7 +32,7 @@ def directors_totals(nds)
   total = gross_for_director(director_data)
   i = 0
   while i < nds.length do 
-    result[nds[i][:name]] => total[i]
+    #result[nds[i][:name]] => total[i]
   end
   return result
 
