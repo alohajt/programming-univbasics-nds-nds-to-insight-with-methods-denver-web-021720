@@ -21,7 +21,7 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
-  pp nds
+  #pp nds
   result = {}
   total = gross_for_director(director_data)
   i = 0
