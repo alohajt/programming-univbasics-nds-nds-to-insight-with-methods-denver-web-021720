@@ -21,7 +21,7 @@ end
 # The return value should be like:
 #
 # { directorOne => allTheMoneyTheyMade, ... }
-def directors_totals(nds)
+def directors_totals(nds)  #nds has multiple directors in
   # pp nds
   result = {}
   total = gross_for_director() #this returns a scalar
