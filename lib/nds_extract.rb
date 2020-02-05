@@ -25,7 +25,7 @@ def directors_totals(nds)
   # pp nds
   result = {}
   total = gross_for_director() #this returns a scalar
-  i = 0
+  
   result[nds[:name]] => total
   return result
 
