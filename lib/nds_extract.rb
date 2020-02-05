@@ -27,11 +27,11 @@ def directors_totals(nds)  #nds has multiple directors in
   i = 0
   while i < nds.length do 
     i += 1
+    arug = nds[i]
+    total = gross_for_director(arug) 
+    result[nds[i][:name]] = total
   end
-  arug = nds[i]
-  total = gross_for_director(arug) 
-  
-  result[nds[i][:name]] = total
+
   return result
 
 end
